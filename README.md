@@ -5,7 +5,7 @@ Kubernetes Installation Using KOPS on EC2
  # minikube requirements #
 
 * 2 cpu 
-* 2.medium ubuntu
+* t2.medium ubuntu
 * mimikube installation process official kubernetes web site 
 * docker
 * 
