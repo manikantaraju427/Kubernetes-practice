@@ -1,7 +1,48 @@
 ### minikube installtion ###
+
 What you’ll need
+
 * 2 CPUs or more
 * 2GB of free memory
 * 20GB of free disk space
 * Internet connection
 * Container or virtual machine manager, such as: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMware Fusion/Workstation
+* must install docker 
+
+### insatllation ###Installation
+Click on the buttons that describe your target platform. For other architectures, see the release page for a complete list of minikube binaries.
+
+Operating system : LINUX
+
+  
+
+Architecture : X86-64
+
+    
+
+Release type : STABLE
+
+ 
+
+Installer type : Binary download
+
+  
+
+### To install the latest minikube stable release on x86-64 Linux using binary download: ###
+
+$curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+
+### Start your cluster ###
+
+$minikube start
+
+
+### Interact with your cluster ###
+If you already have kubectl installed, you can now use it to access your shiny new cluster:
+
+$kubectl get po -A
+
+
+
